@@ -27,9 +27,13 @@ It is designed to help students understand:
 ## Architecture Overview
 
 Browser (Frontend)
+
 ↓ HTTP
+
 Backend API (Node.js + Express)
+
 ↓ SQL
+
 Database (SQLite)
 
 The same architecture applies to:
@@ -40,7 +44,7 @@ Only scale and reliability mechanisms change.
 ---
 
 ## Project Structure
-
+```
 simple-feedback-app
 ├── backend
 │   ├── server.js        (Backend API + DB logic)
@@ -52,7 +56,7 @@ simple-feedback-app
     ├── index.html      (UI)
     ├── app.js          (Frontend logic + logs)
     └── style.css       (Basic styling)
-
+```
 ---
 
 ## Technology Stack
@@ -82,9 +86,11 @@ Concepts Demonstrated:
 
 Step 1: Start the Backend
 
+```sh
 cd backend
 npm install
 node server.js
+```
 
 Backend runs at:
 http://localhost:3000
@@ -93,9 +99,11 @@ http://localhost:3000
 
 Step 2: Start the Frontend
 
+```sh
 cd frontend
 npm install
 npm start
+```
 
 Frontend runs at:
 http://localhost:8080
