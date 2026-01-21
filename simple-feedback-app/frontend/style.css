@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  padding: 40px;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+input, textarea {
+  width: 300px;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+button {
+  padding: 8px 16px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #125ea6;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+li {
+  background: white;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
