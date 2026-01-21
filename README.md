@@ -126,19 +126,6 @@ Health Check
 
 ---
 
-## Demo Flow (Recommended)
-
-1. Start backend and frontend
-2. Open browser developer console (frontend logs)
-3. Submit feedback
-4. Observe browser console logs and backend terminal logs
-5. Stop backend
-6. Try submitting feedback again and observe failure
-
-This demonstrates a real production outage scenario.
-
----
-
 ## Logging Strategy
 
 Frontend Logs:
