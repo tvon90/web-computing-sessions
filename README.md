@@ -84,10 +84,15 @@ Concepts Demonstrated:
 
 ## How to Run the Application
 
+Clone the git repo
+```sh
+git clone https://github.com/tvon90/web-computing-sessions.git
+```
+
 Step 1: Start the Backend
 
 ```sh
-cd backend
+cd simple-feedback-app\backend
 npm install
 node server.js
 ```
@@ -100,7 +105,7 @@ http://localhost:3000
 Step 2: Start the Frontend
 
 ```sh
-cd frontend
+cd simple-feedback-app\frontend
 npm install
 npm start
 ```
